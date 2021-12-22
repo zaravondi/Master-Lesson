@@ -1,0 +1,12 @@
+agym==0.5.7
+Keras==1.2.0
+numpy==1.11.3
+opencv-python
+pip install gym torch
+sudo apt-get install zliblg-dev cmake   bunun yerine mac işletim sistemi için brew install zlib1g-dev cmake 
+pip install 'msgpack==1.0.2' gym[atari] tensorboard  
+python version:  3.7
+plot  için -> tensorboard  --logdir  ./logs
+python main.py -m train
+python main.py -m test -l saved.h5 -v //simulator
+python main.py -m test -l saved.h5 -x //statistic
